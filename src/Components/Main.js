@@ -27,7 +27,7 @@ class Main extends React.Component {
 
         return (
             <>
-                <div>
+                <div >
                     <Form>
                         <Form.Group controlId="exampleForm.ControlSelect1">
                             <Form.Label>Example select</Form.Label>
@@ -43,7 +43,7 @@ class Main extends React.Component {
                 </div>
 
 
-                <div>
+                <div style={{display:'flex', flexFlow:'row' , flexWrap:'wrap' , padding:'4rem' }}>
                     {this.props.hornsData.map(item => {
                         return (
                             <>
